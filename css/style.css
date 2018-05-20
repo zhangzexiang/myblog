@@ -258,10 +258,11 @@ ul.cat li {
 ol.type li {
 	display: inline-block;
 	margin-left: 20px;
+
 }
-ol.type li:after {
-	content: ' | ';
-	margin-left: 20px;
+ol.type li {
+	color: #616e7c;
+	border-left:1px solid; 
 }
 ol.type li:last-child:after {
 	content: '';
@@ -269,6 +270,7 @@ ol.type li:last-child:after {
 ol.type li a {
 	color: #616e7c;
 	padding: 2px 8px;
+	margin-left: 20px;
 }
 ol.type li a.active {
 	color: #E87E04;
